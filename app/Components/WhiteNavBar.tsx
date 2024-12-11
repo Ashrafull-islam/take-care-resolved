@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-
+import Image from 'next/image'
 export default function WhiteNavBar () {
   return (
     <nav className="bg-white shadow-sm">
@@ -9,7 +9,7 @@ export default function WhiteNavBar () {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
-              <img
+              <Image
                 src="/placeholder.svg?height=50&width=50"
                 alt="Sojourn Logo"
                 className="h-12 w-12"

@@ -14,7 +14,7 @@ export default function Practitioner() {
           <div className=' md:h-auto'>
             <h2  className={`${castoro.className} text-2xl p-4  mb-8 text-[#263B3C] text-start my-2 md:my-0 md:text-[48px] leading-9`}>Meet Your Practitioner</h2>
             <p className={`${lexend.className} p-4 md:p-0 my-0 md:my-6 text-[14px] md:text-[18px] opacity-70 leading-8	`}>
-              As a mother of four and a Hypnobirthing Australia certified practitioner, I've
+              As a mother of four and a Hypnobirthing Australia certified practitioner, I&apos;ve
               personally witnessed the transformative power of a positive birthing experience.
               My passion is fuelled by a desire to ensure every woman has access to the
               knowledge and support needed for a fulfilling birth, drawing from my own diverse

@@ -8,6 +8,7 @@ import marquee3 from "@/public/marquee4.png";
 import marquee4 from "@/public/marquee 5.png";
 import marquee5 from "@/public/marquee.png";
 import { lexend } from "@/app/layout";
+import { Link } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -65,7 +66,7 @@ export default function Footer() {
           <div className="flex flex-col items-center sm:items-start text-center sm:text-left gap-2">
             <p className="font-semibold text-lg">Follow Us</p>
             <div className="flex items-center gap-2">
-              <a href="/" className="hover:underline">Instagram</a>
+              <Link href="/" className="hover:underline">Instagram</Link>
               <FaSquareInstagram className="text-xl" />
             </div>
           </div>
